@@ -17,7 +17,7 @@ public class LoginPage {
 	private By tb_username = By.id("user-name");
 	private By tb_password = By.id("password");
 	private By btn_login = By.id("login-button");
-	private By loginError = By.xpath("[@data-test='error']");
+	private By loginError = By.xpath("//*[@data-test='error']");
 
 	public LoginPage(WebDriver driver) {
 		this.driver = driver;
